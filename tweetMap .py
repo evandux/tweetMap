@@ -24,10 +24,10 @@ import os
 from os import path
 
 # Necessary authentication keys from Twitter
-consumer_key ="4JwxciB9kDz7MOldVl6GjRsrc"
-consumer_secret = "pNpM2p29AQikAoF10tfB5l9khH67CYF52gs4VH8CNtpIgRQAzA"
-access_token = "1060765563784323072-2qcyK8PgnZ2bkpjTmNiwD6vMbc3c1K"
-access_secret = "hdsGEZdW7fgzQUMq4KsxYalpKQ8qs16aJKJkyuQmHXkqJ"
+consumer_key ="[consumer key here]"
+consumer_secret = "[consumer secret here]"
+access_token = "[access token here]"
+access_secret = "access secret here"
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
@@ -122,7 +122,3 @@ with open(output,"w") as fout:
 
 arcpy.JSONToFeatures_conversion(output, os.path.join(tweet_shape, file_name)) # Converts geoJSON to a point shapefile
 print("All done, your file can be found at {}\{}.shp".format(tweet_shape, file_name))
-
-# File for input Q:\evandux\GIS329_Programming\FinalProject\outputs
-# File to use for shapefile output Q:\evandux\GIS329_Programming\FinalProject\outputs\shapefile
-
