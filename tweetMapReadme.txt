@@ -6,9 +6,9 @@ This script allows users to filter a global "real-time" stream of tweets using a
 
 This script will prompt the user for 6 specific inputs. In order, these inputs are:
 
-1. Directory to save the initial JSON file to, this file is used later in the script. (eg. "Q:\evandux\GIS329_Programming\FinalProject\outputs")
+1. Directory to save the initial JSON file to, this file is used later in the script. 
 
-2. Directory or workspace or geodatabase to save the final tweet points shapefile to. (eg. "Q:\evandux\GIS329_Programming\FinalProject\outputs\shapefile")
+2. Directory or workspace or geodatabase to save the final tweet points shapefile to.
  
 3. Your desired name of the JSON file that will contain the tweets you gather (eg. jsontweets)*
  * do not add a .json extension to your filename, the script will do this automatically.
